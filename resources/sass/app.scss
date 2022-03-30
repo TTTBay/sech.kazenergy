@@ -1,0 +1,102 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: #fff;
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .excel {
+        width: 15px;
+        margin-right: 8px;
+    }
+    div#app {
+
+        .logo {
+            width: 150px;
+        }
+
+        main {
+            div.container {
+                .error-politic {
+                    color: red;
+                }
+                .banner {
+                    width: 90%;
+                    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+                }
+                label.error {
+                    color: red;
+                    display: none;
+                }
+                .alert {
+                    top: 50px;
+                    padding: 10px 50px 10px 50px;
+                    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+                }
+                div.row {
+                    .terms-alert {
+                        display: none;
+                    }
+                    .category {
+                        height: 100px;
+                        cursor: pointer;
+                        background-color: #3baee8;
+
+                        color: #fff;
+                        font-size: 18px;
+                        font-weight: bold;
+                        &:hover {
+                            background-color: #097eba;
+                        }
+                    }
+                }
+                div.row {
+                    div.form-content {
+                        //display: none;
+                        .other_project_topic {
+                            display: none;
+                        }
+                        .other_university {
+                            display: none;
+                        }
+                        .other_college {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .form_input {
+        border: 0;
+        border-bottom: 1px solid #ced4da;
+        &:focus {
+            outline: none;
+            border-bottom: 2px solid #a1cbef;;
+        }
+    }
+    input[type=radio], input[type=checkbox] {
+        cursor: pointer;
+    }
+    .alert {
+        position: absolute;
+        top: 18px;
+    }
+    .bachelor {
+        display: none;
+    }
+    .magistracy {
+        display: none;
+    }
+}
